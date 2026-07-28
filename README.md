@@ -154,7 +154,7 @@ This workshop builds sequentially — Day 1's Cell Ranger output feeds directly 
 
 Begin the workshop by processing the pre- and post-treatment FASTQ files (GSM8086070, GSM8086066) through Cell Ranger on Rivanna. This produces the count matrices used throughout the rest of the workshop.
 
-- 📄 **[Processing Cell Ranger Output on Google Colab Cloud (Seurat Pipeline)](Downstream_scRNAseq_Seurat_Pipeline.md)**
+- 📄 **[Analysis of Processed Cell Ranger Output on Google Colab Cloud (Seurat Pipeline)](Downstream_scRNAseq_Seurat_Pipeline.md)**
 
 
 
@@ -162,7 +162,7 @@ Begin the workshop by processing the pre- and post-treatment FASTQ files (GSM808
 
 Cell type annotation, differential expression between pre- and post-treatment samples, trajectory inference, and cell-cell communication analysis, built on the Day 1 Cell Ranger output.
 
-- 📄 **[Continuing on Seurat Analyis Day-2 on Google Colab Cloud (Seurat Pipeline)](Day-2_Downstream_scRNAseq_Seurat_Pipeline.md)**
+- 📄 **[Continuing on scRNA-seq Seurat Analyis Day-2 on Google Colab Cloud (Seurat Pipeline)](Day-2_Downstream_scRNAseq_Seurat_Pipeline.md)**
 
 
 ### 🧫 Day 3 — Spatial Transcriptomics: Processing the Raw Dataset
@@ -171,13 +171,15 @@ Cell type annotation, differential expression between pre- and post-treatment sa
 
 Start processing the Visium FFPE Human Prostate Cancer data through Space Ranger on Rivanna. This produces the count matrices used throughout the rest of the workshop.
 
-- 📄 **[Processing Space Ranger Output on Google Colab Cloud (Seurat Pipeline)](Day-3_Downstream_Spatial_Seurat_Pipeline.md)**
+- 📄 **[Analysis of Processed Space Ranger Output on Google Colab Cloud (Spatial Seurat Pipeline)](Day-3_Downstream_Spatial_Seurat_Pipeline.md)**
 
 
 Spatial data QC, space ranger processing, seurat pipiline with normalization, clustering, visualization, marker analysis, cell type annotation, cell-cell communication.
 
 ### 🧫 Day 4 — Spatial Transcriptomics: Downstream Analysis
+Start processing on day-4 with cell type annotation, trajectory analyiss and cell-cell communication.
 
+- 📄 **[Continuing on spatial transciptomcis Google Colab Cloud (Spatial Seurat Pipeline)](Day-4_Downstream_Spatial_Seurat_Pipeline.md)**
 
 ---
 
