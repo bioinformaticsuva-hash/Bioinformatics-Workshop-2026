@@ -21,6 +21,7 @@ Materials, notebooks, code, and datasets for the UVA Bioinformatics Core's **Sin
   - [Day 1: Introduction to Single-Cell RNA-seq](#day-1-introduction-to-single-cell-rna-seq)
   - [Day 2: Downstream Analysis, Annotation & Dynamics](#day-2-downstream-analysis-annotation--dynamics)
   - [Day 3: Spatial Transcriptomics](#day-3-spatial-transcriptomics)
+  - [Day 4: Spatial Transcriptomics](#day-4-spatial-transcriptomics)
 - [Key Topics](#key-topics)
 - [Datasets](#datasets)
 - [Getting Started — Where to Begin](#getting-started--where-to-begin)
