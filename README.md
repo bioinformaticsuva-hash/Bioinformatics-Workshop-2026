@@ -39,9 +39,9 @@ The majority of each day is spent working directly in **R (Seurat)** on real dat
 | | |
 |---|---|
 | **Format** | Lecture + Hands-on Practice (hands-on emphasis) |
-| **Duration** | 3 Days |
-| **Morning** | 9:00 – 10:00 AM Lecture |
-| **Afternoon** | 10:15 AM – 4:00 PM Hands-on Practice |
+| **Duration** | 4 Days |
+| **Morning** | 9:00 – 11:00 AM Lecture |
+| **Afternoon** | 11:15 AM – 4:00 PM Hands-on Practice |
 
 ---
 
@@ -79,9 +79,9 @@ By the end of this workshop, participants will be able to:
 
 | Time | Activity |
 |---|---|
-| 9:00 – 10:00 AM | Lecture |
-| 10:00 – 10:15 AM | Break |
-| 10:15 AM – 12:00 PM | Practice Part 1 — Environment setup, data loading, QC filtering, ambient correction, doublet detection |
+| 9:00 – 11:00 AM | Lecture |
+| 11:00 – 11:15 AM | Break |
+| 11:15 AM – 12:00 PM | Practice Part 1 — Environment setup, data loading, QC filtering, ambient correction, doublet detection |
 | 12:00 – 12:30 PM | Lunch |
 | 12:30 – 4:00 PM | Practice Part 2 — Integration, normalization, clustering, UMAP |
 
@@ -90,9 +90,9 @@ By the end of this workshop, participants will be able to:
 
 | Time | Activity |
 |---|---|
-| 9:00 – 10:00 AM | Lecture |
-| 10:00 – 10:15 AM | Break |
-| 10:15 AM – 12:00 PM | Practice Part 1 — Annotation and differential expression |
+| 9:00 – 11:00 AM | Lecture |
+| 11:00 – 11:15 AM | Break |
+| 11:15 AM – 12:00 PM | Practice Part 1 — Annotation and differential expression |
 | 12:00 – 12:30 PM | Lunch |
 | 12:30 – 4:00 PM | Practice Part 2 — Trajectory inference and cell–cell communication (NicheNet) |
 
@@ -101,9 +101,9 @@ By the end of this workshop, participants will be able to:
 
 | Time | Activity |
 |---|---|
-| 9:00 – 10:00 AM | Lecture |
-| 10:00 – 10:15 AM | Break |
-| 10:15 AM – 12:00 PM | Practice Part 1 — Spatial data QC and processing |
+| 9:00 – 11:00 AM | Lecture |
+| 11:00 – 11:15 AM | Break |
+| 11:15 AM – 12:00 PM | Practice Part 1 — Spatial data QC and processing |
 | 12:00 – 12:30 PM | Lunch |
 | 12:30 – 3:30 PM | Practice Part 2 — Seurat Pre-processing, Normalization, and Marker Analyis, Cell type annotation |
 | 3:30 – 4:00 PM | Cell type annotation, pseudobulk analysis, cell-cell communication |
@@ -175,6 +175,9 @@ Start processing the Visium FFPE Human Prostate Cancer data through Space Ranger
 
 
 Spatial data QC, space ranger processing, seurat pipiline with normalization, clustering, visualization, marker analysis, cell type annotation, cell-cell communication.
+
+### 🧫 Day 4 — Spatial Transcriptomics: Downstream Analysis
+
 
 ---
 
