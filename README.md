@@ -1,12 +1,12 @@
 # Single-Cell and Spatial Transcriptomics Data Analysis Workshop
 
-**UVA Bioinformatics Core — 3-Day Hands-On Training Program**
+**UVA Bioinformatics Core — 4-Day Hands-On Training Program**
 
 ![UVA Bioinformatics Core](https://img.shields.io/badge/UVA-Bioinformatics%20Core-232D4B?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-E57200?style=flat-square)
 ![R](https://img.shields.io/badge/R-Seurat-blue?style=flat-square)
 
-Materials, notebooks, code, and datasets for the UVA Bioinformatics Core's **Single-Cell and Spatial Transcriptomics** workshop — a 3-day, hands-on-intensive training program in scRNA-seq and spatial transcriptomics data analysis.
+Materials, notebooks, code, and datasets for the UVA Bioinformatics Core's **Single-Cell and Spatial Transcriptomics** workshop — a 4-day, hands-on-intensive training program in scRNA-seq and spatial transcriptomics data analysis.
 
 ---
 
