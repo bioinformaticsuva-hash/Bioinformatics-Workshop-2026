@@ -52,9 +52,10 @@ By the end of this workshop, participants will be able to:
 - Describe the experimental principles of single-cell RNA-seq (droplet-based, plate-based) and spatial transcriptomics (imaging-based and sequencing-based) platforms
 - Perform quality control and preprocessing of single-cell count data, including filtering by UMI counts, gene counts, and mitochondrial content, ambient RNA correction, and doublet detection
 - Execute standard downstream analysis workflows: integration, normalization, dimensionality reduction (PCA, UMAP/t-SNE), clustering, and marker gene identification using Seurat
-- Annotate cell types using marker-based and reference-based (label transfer) approaches, and perform differential expression testing between conditions or clusters
+- Annotate cell types using marker-based and reference-based (label transfer) approaches, and perform differential expression analysis between conditions and/or clusters
 - Apply trajectory inference and cell-cell communication analysis to interpret dynamic and interactive cellular processes
-- Process, QC, and analyze spatial transcriptomics data (e.g., 10x Visium, Xenium), including spot/cell deconvolution and integration with matched scRNA-seq datasets
+- Process, QC, and analyze spatial transcriptomics data (10x Visium), perform standard normalization, PCA, dimension reduction (UMAP), clustering, and marker analysis using Seurat.
+- Cluster annotation, trajectory analysis and cell-cell communication on spatial data.
 - Apply reproducibility and reporting best practices for single-cell and spatial studies, including data/code sharing and standardized metadata
 
 ---
