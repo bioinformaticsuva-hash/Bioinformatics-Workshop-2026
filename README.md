@@ -18,10 +18,10 @@ Materials, notebooks, code, and datasets for the UVA Bioinformatics Core's **Sin
 - [Repository Structure](#repository-structure)
 - [Setup Instructions](#setup-instructions)
 - [Schedule](#schedule)
-  - [Day 1: Introduction to Single-Cell RNA-seq and training in processing data](#day-1-introduction-to-single-cell-rna-seq)
-  - [Day 2: Downstream Analysis, Annotation & Dynamics](#day-2-downstream-analysis-annotation--dynamics)
-  - [Day 3: Introduction to Spatial Transcriptomics and training in processing data](#day-3-spatial-transcriptomics)
-  - [Day 4: Downstream Analysis of Spatial Transcriptomics](#day-4-spatial-transcriptomics)
+  - [Day 1: Introduction to Single-Cell RNA-seq and training on data processing](#day-1-introduction-to-single-cell-rna-seq)
+  - [Day 2: Single-Cell RNA-seq downstream Analysis, Annotation & Dynamics](#day-2-downstream-analysis-annotation--dynamics)
+  - [Day 3: Introduction to Spatial Transcriptomics and training on data processing](#day-3-spatial-transcriptomics)
+  - [Day 4: Spatial Data Downstream Analysis, Visualization, Annotation and Dynamics](#day-4-spatial-transcriptomics)
 - [Key Topics](#key-topics)
 - [Datasets](#datasets)
 - [Getting Started — Where to Begin](#getting-started--where-to-begin)
@@ -32,7 +32,7 @@ Materials, notebooks, code, and datasets for the UVA Bioinformatics Core's **Sin
 
 ## Overview
 
-This workshop provides intensive, hands-on training in the analysis of single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics data for researchers, students, and laboratory personnel at UVA. Participants learn the foundations of single-cell and spatial transcriptomics technologies, then move quickly into computational practice: quality control, integration, normalization, clustering, cell type annotation, trajectory inference, cell-cell communication analysis, and spatial data processing.
+This workshop provides intensive, hands-on training in the analysis of single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics data for researchers, students, and laboratory personnel at UVA. Participants learn the foundations of single-cell and spatial transcriptomics technologies, then move quickly into computational practice: quality control, integration, normalization, clustering, cell type annotation, trajectory inference, cell-cell communication analysis on both single-cell and spatial data.
 
 The majority of each day is spent working directly in **R (Seurat)** on real datasets, using cloud-based compute (UVA Research Computing / Rivanna and Google Colab), so participants leave with working, reusable analysis code rather than slides alone.
 
@@ -49,13 +49,11 @@ The majority of each day is spent working directly in **R (Seurat)** on real dat
 
 By the end of this workshop, participants will be able to:
 
-- Describe the experimental principles of single-cell RNA-seq (droplet-based, plate-based) and spatial transcriptomics (imaging-based and sequencing-based) platforms
+- Describe the experimental principles of single-cell RNA-seq and spatial transcriptomics platforms
 - Perform quality control and preprocessing of single-cell count data, including filtering by UMI counts, gene counts, and mitochondrial content, ambient RNA correction, and doublet detection
 - Execute standard downstream analysis workflows: integration, normalization, dimensionality reduction (PCA, UMAP/t-SNE), clustering, and marker gene identification using Seurat
-- Annotate cell types using marker-based and reference-based (label transfer) approaches, and perform differential expression analysis between conditions and/or clusters
+- Annotate cell types using marker-based and reference-based (label transfer) approaches, and perform differential expression analysis between conditions and clusters
 - Apply trajectory inference and cell-cell communication analysis to interpret dynamic and interactive cellular processes
-- Process, QC, and analyze spatial transcriptomics data (10x Visium), perform standard normalization, PCA, dimension reduction (UMAP), clustering, and marker analysis using Seurat.
-- Cluster annotation, trajectory analysis and cell-cell communication on spatial data.
 - Apply reproducibility and reporting best practices for single-cell and spatial studies, including data/code sharing and standardized metadata
 
 ---
@@ -64,7 +62,7 @@ By the end of this workshop, participants will be able to:
 
 **Who this is for:**
 - Graduate students, postdocs, and research staff planning to generate or analyze single-cell or spatial transcriptomics data
-- Current wet-lab researchers who want to develop a working computational foundation in scRNA-seq/spatial analysis, including comfort with R
+- Current wet-lab researchers who want to develop a working computational foundation in scRNA-seq/spatial analysis
 - Investigators designing future single-cell or spatial transcriptomics experiments
 - Bioinformatics staff and core facility personnel seeking a refresher on current single-cell/spatial tools and best practices
 
