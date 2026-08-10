@@ -19,9 +19,9 @@ Materials, notebooks, code, and datasets for the UVA Bioinformatics Core's **Sin
 - [Setup Instructions](#setup-instructions)
 - [Schedule](#schedule)
   - [Day 1: Introduction to Single-Cell RNA-seq and training on data processing](#day-1-introduction-to-single-cell-rna-seq)
-  - [Day 2: Single-Cell RNA-seq downstream Analysis, Annotation & Dynamics](#day-2-downstream-analysis-annotation--dynamics)
+  - [Day 2: In Practice Single-Cell RNA-seq downstream Analysis, Annotation & Dynamics](#day-2-downstream-analysis-annotation--dynamics)
   - [Day 3: Introduction to Spatial Transcriptomics and training on data processing](#day-3-spatial-transcriptomics)
-  - [Day 4: Spatial Data Downstream Analysis, Visualization, Annotation and Dynamics](#day-4-spatial-transcriptomics)
+  - [Day 4: In Practice Spatial Data Downstream Analysis, Visualization, Annotation and Dynamics](#day-4-spatial-transcriptomics)
 - [Key Topics](#key-topics)
 - [Datasets](#datasets)
 - [Getting Started — Where to Begin](#getting-started--where-to-begin)
@@ -89,23 +89,36 @@ By the end of this workshop, participants will be able to:
 
 | Time | Activity |
 |---|---|
-| 9:00 – 11:00 AM | Lecture |
+| 9:00 – 11:00 AM | Lecture - Single-cell RNA-seq Downstream and Advance Analysis Overview and Transition to Practice|
 | 11:00 – 11:15 AM | Break |
-| 11:15 AM – 12:00 PM | Practice Part 1 — Annotation and differential expression |
+| 11:15 AM – 12:00 PM | Practice Part 1 — Marker Analysis|
 | 12:00 – 12:30 PM | Lunch |
-| 12:30 – 4:00 PM | Practice Part 2 — Trajectory inference and cell–cell communication (NicheNet) |
+| 12:30 – 4:00 PM | Practice Part 2 — Celltype Annotation and Differential Expression|
 
-### Day 3: Spatial Transcriptomics
-*Platform Overview · Spatial QC · Normalization · Marker Analysis · cell type annotation · pseudobulk Analyis · cell-cell communication · Wrap-up*
+### Day 3: Single-Cell RNA-seq and Spatial Transcriptomics
+*Platform Overview · Wrapping up on Single-Cell RNA-seq Analysis and Introduction to Spatial QC · Processing Raw data · Seurat Processing *
 
 | Time | Activity |
 |---|---|
-| 9:00 – 11:00 AM | Lecture |
+| 9:00 – 11:00 AM | Lecture & Practice - Single-Cell RNA-seq wrapup and Practice on Trajectory Inference and Cell–Cell Communication (NicheNet)|
 | 11:00 – 11:15 AM | Break |
-| 11:15 AM – 12:00 PM | Practice Part 1 — Spatial data QC and processing |
+| 11:15 AM – 12:00 PM | Lecture & Practice - Introduction to Spatial Transcriptomics data and Transition to Practice |
 | 12:00 – 12:30 PM | Lunch |
-| 12:30 – 3:30 PM | Practice Part 2 — Seurat Pre-processing, Normalization, and Marker Analyis, Cell type annotation |
+| 12:30 – 3:30 PM | Practice —  Environment set up, Data Download and Raw data processing using space ranger and exploring output, Google Colab Environment setup, data loading, Seurat Pre-processing, Normalization, and Marker Analysis|
 | 3:30 – 4:00 PM | Cell type annotation, pseudobulk analysis, cell-cell communication |
+
+
+### Day 4: Spatial Transcriptomics
+*Spatial cell type annotation · pseudobulk Analyis · Trajectory Analysis · cell-cell communication · Wrap-up*
+
+| Time | Activity |
+|---|---|
+| 9:00 – 11:00 AM | Lecture - Spatial Transcriptomics Downstream Advance Analysis and Transition to Practice|
+| 11:00 – 11:15 AM | Break |
+| 11:15 AM – 12:00 PM | Practice Part 1 — Spatial data pseudobulk Analyis|
+| 12:00 – 12:30 PM | Lunch |
+| 12:30 – 3:30 PM | Practice Part 2 —  Celltype annotation, Trajectory Analyis, Cell type annotation |
+
 
 ---
 
