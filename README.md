@@ -78,11 +78,11 @@ By the end of this workshop, participants will be able to:
 
 | Time | Activity |
 |---|---|
-| 9:00 – 11:00 AM | Lecture |
+| 9:00 – 11:00 AM | Lecture - Introduction to Single-Cell RNA-seq and Transition to Practice|
 | 11:00 – 11:15 AM | Break |
-| 11:15 AM – 12:00 PM | Practice Part 1 — Environment setup, data loading, QC filtering, ambient correction, doublet detection |
+| 11:15 AM – 12:00 PM | Practice Part 1 —  Environment set up, Data Download and Raw data processing using cell ranger and exploring output |
 | 12:00 – 12:30 PM | Lunch |
-| 12:30 – 4:00 PM | Practice Part 2 — Integration, normalization, clustering, UMAP |
+| 12:30 – 4:00 PM | Practice Part 2 — Google Colab Environment setup, data loading, QC filtering, ambient correction, doublet detection, Integration, normalization, clustering, UMAP and visualization |
 
 ### Day 2: Downstream Analysis, Annotation & Dynamics
 *Marker Analysis · Cell Type Annotation · Differential Expression · Trajectory Inference · Cell–Cell Communication*
