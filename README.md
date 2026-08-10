@@ -188,7 +188,7 @@ Spatial data QC, space ranger processing, seurat pipiline with normalization, cl
 ### 🧫 Day 4 — Spatial Transcriptomics: Downstream Analysis
 Start processing on day-4 with cell type annotation, trajectory analyiss and cell-cell communication.
 
-- 📄 **[Continuing on spatial transciptomcis Google Colab Cloud (Spatial Seurat Pipeline)](Day-4_Downstream_Spatial_Seurat_Pipeline.md)**
+- 📄 **[Continuing on spatial transciptomcis Google Colab Cloud (Spatial Seurat Pipeline)](Day-3_Downstream_Spatial_Seurat_Pipeline.md)**
 
 ---
 
