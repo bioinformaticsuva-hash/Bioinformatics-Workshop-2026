@@ -91,33 +91,32 @@ By the end of this workshop, participants will be able to:
 |---|---|
 | 9:00 – 11:00 AM | Lecture - Single-cell RNA-seq Downstream and Advance Analysis Overview and Transition to Practice|
 | 11:00 – 11:15 AM | Break |
-| 11:15 AM – 12:00 PM | Practice Part 1 — Marker Analysis|
+| 11:15 AM – 12:00 PM | Practice Part 1 — Marker Analysis and Differential Expression|
 | 12:00 – 12:30 PM | Lunch |
-| 12:30 – 4:00 PM | Practice Part 2 — Celltype Annotation and Differential Expression|
+| 12:30 – 4:00 PM | Practice Part 2 — Celltype Annotation, Trajectory Inference and Cell–Cell Communication|
 
-### Day 3: Single-Cell RNA-seq and Spatial Transcriptomics
-*Platform Overview · Wrapping up on Single-Cell RNA-seq Analysis and Introduction to Spatial QC · Processing Raw data · Seurat Processing *
+### Day 3: Spatial Transcriptomics
+*Platform Overview · Introduction to Spatial QC · Processing Raw data · Seurat Processing *
 
 | Time | Activity |
 |---|---|
-| 9:00 – 11:00 AM | Lecture & Practice - Single-Cell RNA-seq wrapup and Practice on Trajectory Inference and Cell–Cell Communication (NicheNet)|
+| 9:00 – 11:00 AM | Lecture - Introduction to Spatial Transcriptomics data and Transition to Practice|
 | 11:00 – 11:15 AM | Break |
-| 11:15 AM – 12:00 PM | Lecture & Practice - Introduction to Spatial Transcriptomics data and Transition to Practice |
+| 11:15 AM – 12:00 PM | Practice Part 1 - Environment set up, Data Download and Raw data processing using space ranger and exploring output|
 | 12:00 – 12:30 PM | Lunch |
-| 12:30 – 3:30 PM | Practice —  Environment set up, Data Download and Raw data processing using space ranger and exploring output, Google Colab Environment setup, data loading, Seurat Pre-processing, Normalization, and Marker Analysis|
-| 3:30 – 4:00 PM | Cell type annotation, pseudobulk analysis, cell-cell communication |
+| 12:30 – 4:00 PM | Practice Part 2 — Google Colab Environment setup, data loading, Seurat Pre-processing, Normalization, Marker Analysis and pseudobulk Analyis|
 
 
 ### Day 4: Spatial Transcriptomics
-*Spatial cell type annotation · pseudobulk Analyis · Trajectory Analysis · cell-cell communication · Wrap-up*
+*Spatial cell type annotation · Trajectory Analysis · cell-cell communication · Wrap-up*
 
 | Time | Activity |
 |---|---|
 | 9:00 – 11:00 AM | Lecture - Spatial Transcriptomics Downstream Advance Analysis and Transition to Practice|
 | 11:00 – 11:15 AM | Break |
-| 11:15 AM – 12:00 PM | Practice Part 1 — Spatial data pseudobulk Analyis|
+| 11:15 AM – 12:00 PM | Practice Part 1 — Spatial data Celltype annotation|
 | 12:00 – 12:30 PM | Lunch |
-| 12:30 – 3:30 PM | Practice Part 2 —  Celltype annotation, Trajectory Analyis, Cell type annotation |
+| 12:30 – 3:00 PM | Practice Part 2 —  Trajectory Analyis, Cell type annotation |
 
 
 ---
@@ -126,12 +125,10 @@ By the end of this workshop, participants will be able to:
 
 - Introduction to single-cell RNA-seq (Day 1)
 - Single-Cell data processing using cell ranger and Downstream analysis, QC, filtering, and preprocessing in Seurat (Day 1)
-- Ambient RNA correction, Doublet detection, filtering, Integration, Normalization, dimensionality reduction, clustering and Visuzlization (Day 1–2)
-- Single-Cell RNA-seq marker gene identification, Cell type annotation, differential expression, and multi-sample/condition comparisons (Day 2)
-- Trajectory inference and cell-cell communication analysis (Day 2)
-- Introduction to Spatial transcriptomics platforms, QC, and processing — 10x Visium (Day 3)
-- marker analysis, cell type annotation, Spatial visualization (Day 3)
-- pseudo-bulk analysis, cell-cell communication (Day 3)
+- Ambient RNA correction, Doublet detection, filtering, Integration, Normalization, dimensionality reduction, clustering and Visuzlization (Day 1)
+- Single-Cell RNA-seq marker gene identification, Cell type annotation, differential expression (Day 2)
+- Single-Cell RNA-seq Trajectory analysis and cell-cell communication analysis and Introduction to Spatial transcriptomics platforms, QC, and processing — 10x Visium until Marker identification (Day 3)
+- Spatial transcriptomics pseudo-bulk analysis, cell type annotation, Trajectory analysis and cell-cell communication (Day 4)
 
 
 ## Datasets
