@@ -125,9 +125,9 @@ By the end of this workshop, participants will be able to:
 ## Key Topics
 
 - Introduction to single-cell RNA-seq (Day 1)
-- Single-cell data QC, filtering, and preprocessing in Seurat/Scanpy (Day 1)
-- Integration, Normalization, dimensionality reduction, clustering, and marker gene identification (Day 1–2)
-- Cell type annotation, differential expression, and multi-sample/condition comparisons (Day 2)
+- Single-Cell data processing using cell ranger and Downstream analysis, QC, filtering, and preprocessing in Seurat (Day 1)
+- Ambient RNA correction, Doublet detection, filtering, Integration, Normalization, dimensionality reduction, clustering and Visuzlization (Day 1–2)
+- Single-Cell RNA-seq marker gene identification, Cell type annotation, differential expression, and multi-sample/condition comparisons (Day 2)
 - Trajectory inference and cell-cell communication analysis (Day 2)
 - Introduction to Spatial transcriptomics platforms, QC, and processing — 10x Visium (Day 3)
 - marker analysis, cell type annotation, Spatial visualization (Day 3)
