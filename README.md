@@ -49,7 +49,7 @@ The majority of each day is spent working directly in **R (Seurat)** on real dat
 
 By the end of this workshop, participants will be able to:
 
-- Describe the experimental principles of single-cell RNA-seq and spatial transcriptomics platforms
+- Introduction to single-cell RNA-seq technology and spatial transcriptomics platforms
 - Perform quality control and preprocessing of single-cell count data, including filtering by UMI counts, gene counts, and mitochondrial content, ambient RNA correction, and doublet detection
 - Execute standard downstream analysis workflows: integration, normalization, dimensionality reduction (PCA, UMAP/t-SNE), clustering, and marker gene identification using Seurat
 - Annotate cell types using marker-based and reference-based (label transfer) approaches, and perform differential expression analysis between conditions and clusters
