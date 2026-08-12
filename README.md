@@ -66,7 +66,7 @@ By the end of this workshop, participants will be able to:
 - Investigators designing future single-cell or spatial transcriptomics experiments
 - Bioinformatics staff and core facility personnel seeking a refresher on current single-cell/spatial tools and best practices
 
-**Prerequisites:** Basic familiarity with R and the command line is recommended but not mandatory. No prior single-cell analysis experience required. Participants should bring a laptop.
+**Prerequisites:** Basic familiarity with R and the command line is good to have but not mandatory. No prior single-cell analysis experience required. Participants should bring a laptop.
 
 
 
