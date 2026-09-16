@@ -3,7 +3,7 @@
 # Host this file at a raw URL (GitHub raw, gist, etc.) and make the first cell of
 # every workshop notebook:
 #
-#   source("https://raw.githubusercontent.com/<you>/<repo>/main/setup.R")
+#   source("https://github.com/bioinformaticsuva-hash/Bioinformatics-Workshop-2026/main/setup.R")
 #
 # Safe to re-run. System libraries are installed every session (they live on the VM,
 # not in the bundle); the download and extract are skipped if already done.
