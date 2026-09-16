@@ -177,7 +177,7 @@ Start processing on day-4 with cell type annotation, trajectory analyiss and cel
 
 **UVA Bioinformatics Core**
 📍 *1312 Pinn Hall*
-✉️ *add contact email*
+✉️ *bioinformatics@virginia.edu*
 🌐 *[uva bioinformatics core](https://med.virginia.edu/bioinformatics-core/)*
 
 ---
