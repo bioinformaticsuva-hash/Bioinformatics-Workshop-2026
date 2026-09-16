@@ -34,7 +34,7 @@ Materials, notebooks, code, and datasets for the UVA Bioinformatics Core's **Sin
 
 This workshop provides intensive, hands-on training in the analysis of single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics data for researchers, students, and laboratory personnel at UVA. Participants learn the foundations of single-cell and spatial transcriptomics technologies, then move quickly into computational practice: quality control, integration, normalization, clustering, cell type annotation, trajectory inference, cell-cell communication analysis on single-cell and quality control, integration, normalization, clustering, cell type annotation, neighborhood analysis and deconvolution analysis on spatial data.
 
-The majority of each day is spent working directly in **R (Seurat)** on real datasets, using cloud-based compute (UVA Research Computing / Rivanna and Google Colab), so participants leave with working, reusable analysis code rather than slides alone.
+The majority of each day is spent working directly in **R (Seurat)** on real datasets, using cloud-based compute (10x Genomics Cloud Analysis and Google Colab), so participants leave with working, reusable analysis code rather than slides alone.
 
 | | |
 |---|---|
@@ -137,9 +137,9 @@ This workshop builds sequentially — Day 1's Cell Ranger output feeds directly 
 
 ### 🧬 Day 1 — Start Here: Processing the Raw Dataset
 
-- 📄 **[Processing Raw scRNA-seq Data with Cell Ranger on UVA Rivanna](Processing_scRNAseq_Raw_Data.md)**
+- 📄 **[Processing Raw scRNA-seq Data with Cell Ranger on 10x Genomics Cloud](Processing_scRNAseq_Raw_Data.md)**
 
-Begin the workshop by processing the pre- and post-treatment FASTQ files (GSM8086070, GSM8086066) through Cell Ranger on Rivanna. This produces the count matrices used throughout the rest of the workshop.
+Begin the workshop by processing the pre- and post-treatment FASTQ files (GSM8086070, GSM8086066) through Cell Ranger on 10x Genomics Cloud. This produces the count matrices used throughout the rest of the workshop.
 
 - 📄 **[Analysis of Processed Cell Ranger Output on Google Colab Cloud (Seurat Pipeline)](Downstream_scRNAseq_Seurat_Pipeline.md)**
 
@@ -154,9 +154,9 @@ Cell type annotation, differential expression between pre- and post-treatment sa
 
 ### 🧫 Day 3 — Spatial Transcriptomics: Processing the Raw Dataset
 
-- 📄 **[Processing Raw spatial Data with Space Ranger on UVA Rivanna](Processing_spatial_Raw_Data.md)**
+- 📄 **[Processing Raw spatial Data with Space Ranger on 10x Genomics Cloud](Processing_spatial_Raw_Data.md)**
 
-Start processing the Visium FFPE Human Prostate Cancer data through Space Ranger on Rivanna. This produces the count matrices used throughout the rest of the workshop.
+Start processing the Visium FFPE Human Prostate Cancer data through Space Ranger on 10x Genomics Cloud. This produces the count matrices used throughout the rest of the workshop.
 
 - 📄 **[Analysis of Processed Space Ranger Output on Google Colab Cloud (Spatial Seurat Pipeline)](Day-3_Downstream_Spatial_Seurat_Pipeline.md)**
 
