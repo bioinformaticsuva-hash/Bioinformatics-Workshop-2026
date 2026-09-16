@@ -32,7 +32,7 @@ Materials, notebooks, code, and datasets for the UVA Bioinformatics Core's **Sin
 
 ## Overview
 
-This workshop provides intensive, hands-on training in the analysis of single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics data for researchers, students, and laboratory personnel at UVA. Participants learn the foundations of single-cell and spatial transcriptomics technologies, then move quickly into computational practice: quality control, integration, normalization, clustering, cell type annotation, trajectory inference, cell-cell communication analysis on both single-cell and spatial data.
+This workshop provides intensive, hands-on training in the analysis of single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics data for researchers, students, and laboratory personnel at UVA. Participants learn the foundations of single-cell and spatial transcriptomics technologies, then move quickly into computational practice: quality control, integration, normalization, clustering, cell type annotation, trajectory inference, cell-cell communication analysis on single-cell and quality control, integration, normalization, clustering, cell type annotation, neighborhood analysis and deconvolution analysis on spatial data.
 
 The majority of each day is spent working directly in **R (Seurat)** on real datasets, using cloud-based compute (UVA Research Computing / Rivanna and Google Colab), so participants leave with working, reusable analysis code rather than slides alone.
 
@@ -40,8 +40,8 @@ The majority of each day is spent working directly in **R (Seurat)** on real dat
 |---|---|
 | **Format** | Lecture + Hands-on Practice (hands-on emphasis) |
 | **Duration** | 4 Days |
-| **Morning** | 9:00 – 11:00 AM Lecture |
-| **Afternoon** | 11:15 AM – 4:00 PM Hands-on Practice |
+| **Morning** | 10:00 – 11:00 AM Lecture |
+| **Afternoon** | 11:15 AM – 2:00 PM Hands-on Practice (includes lunch) |
 
 ---
 
@@ -54,6 +54,7 @@ By the end of this workshop, participants will be able to:
 - Execute standard downstream analysis workflows: integration, normalization, dimensionality reduction (PCA, UMAP/t-SNE), clustering, and marker gene identification using Seurat
 - Annotate cell types using marker-based and reference-based (label transfer) approaches, and perform differential expression analysis between conditions and clusters
 - Apply trajectory inference and cell-cell communication analysis to interpret dynamic and interactive cellular processes
+- Perform neighborhood analysis and deconvolution specifically for spatial data
 - Apply reproducibility and reporting best practices for single-cell and spatial studies, including data/code sharing and standardized metadata
 
 ---
@@ -78,58 +79,48 @@ By the end of this workshop, participants will be able to:
 
 | Time | Activity |
 |---|---|
-| 9:00 – 11:00 AM | Lecture - Introduction to Single-Cell RNA-seq and Transition to Practice|
+| 10:00 – 11:00 AM | Lecture - Introduction to Single-Cell RNA-seq and Transition to Practice|
 | 11:00 – 11:15 AM | Break |
 | 11:15 AM – 12:00 PM | Practice Part 1 —  Environment set up, Data Download and Raw data processing using cell ranger and exploring output |
-| 12:00 – 12:30 PM | Lunch |
-| 12:30 – 4:00 PM | Practice Part 2 — Google Colab Environment setup, data loading, QC filtering, ambient correction, doublet detection, Integration, normalization, clustering, UMAP and visualization |
+| 12:00 – 12:45 PM | Lunch |
+| 12:45 – 2:00 PM | Practice Part 2 — Google Colab Environment setup, data loading, QC filtering, ambient correction, doublet detection, Integration, normalization, clustering, UMAP and visualization |
 
 ### Day 2: Downstream Analysis, Annotation & Dynamics
 *Marker Analysis · Cell Type Annotation · Differential Expression · Trajectory Inference · Cell–Cell Communication*
 
 | Time | Activity |
 |---|---|
-| 9:00 – 11:00 AM | Lecture - Single-cell RNA-seq Downstream and Advance Analysis Overview and Transition to Practice|
+| 10:00 – 11:00 AM | Lecture - Single-cell RNA-seq Downstream and Advance Analysis Overview and Transition to Practice|
 | 11:00 – 11:15 AM | Break |
 | 11:15 AM – 12:00 PM | Practice Part 1 — Marker Analysis and Differential Expression|
-| 12:00 – 12:30 PM | Lunch |
-| 12:30 – 4:00 PM | Practice Part 2 — Celltype Annotation, Trajectory Inference and Cell–Cell Communication|
+| 12:00 – 12:45 PM | Lunch |
+| 12:45 – 2:00 PM | Practice Part 2 — Celltype Annotation, Trajectory Inference and Cell–Cell Communication|
 
 ### Day 3: Spatial Transcriptomics
 *Platform Overview · Introduction to Spatial QC · Processing Raw data · Seurat Processing *
 
 | Time | Activity |
 |---|---|
-| 9:00 – 11:00 AM | Lecture - Introduction to Spatial Transcriptomics data and Transition to Practice|
+| 10:00 – 11:00 AM | Lecture - Introduction to Spatial Transcriptomics data and Transition to Practice|
 | 11:00 – 11:15 AM | Break |
 | 11:15 AM – 12:00 PM | Practice Part 1 - Environment set up, Data Download and Raw data processing using space ranger and exploring output|
-| 12:00 – 12:30 PM | Lunch |
-| 12:30 – 4:00 PM | Practice Part 2 — Google Colab Environment setup, data loading, Seurat Pre-processing, Normalization, Marker Analysis and pseudobulk Analyis|
+| 12:00 – 12:45 PM | Lunch |
+| 12:45 – 2:00 PM | Practice Part 2 — Google Colab Environment setup, data loading, Seurat Pre-processing, Normalization, Marker Analysis and pseudobulk Analyis|
 
 
 ### Day 4: Spatial Transcriptomics
-*Spatial cell type annotation · Trajectory Analysis · cell-cell communication · Wrap-up*
+*Spatial cell type annotation · Neighborhood Analysis · Deconvolution Analysis · Wrap-up*
 
 | Time | Activity |
 |---|---|
-| 9:00 – 11:00 AM | Lecture - Spatial Transcriptomics Downstream Advance Analysis and Transition to Practice|
+| 10:00 – 11:00 AM | Lecture - Spatial Transcriptomics Downstream Advance Analysis and Transition to Practice|
 | 11:00 – 11:15 AM | Break |
 | 11:15 AM – 12:00 PM | Practice Part 1 — Spatial data Celltype annotation|
-| 12:00 – 12:30 PM | Lunch |
-| 12:30 – 3:00 PM | Practice Part 2 —  Trajectory Analyis, Cell type annotation |
+| 12:00 – 12:45 PM | Lunch |
+| 12:45 – 2:00 PM | Practice Part 2 —  Neighborhood and deconvolution analysis |
 
 
 ---
-
-## Key Topics
-
-- Introduction to single-cell RNA-seq (Day 1)
-- Single-Cell data processing using cell ranger and Downstream analysis, QC, filtering, and preprocessing in Seurat (Day 1)
-- Ambient RNA correction, Doublet detection, filtering, Integration, Normalization, dimensionality reduction, clustering and Visuzlization (Day 1)
-- Single-Cell RNA-seq marker gene identification, Cell type annotation, differential expression (Day 2)
-- Single-Cell RNA-seq Trajectory analysis and cell-cell communication analysis and Introduction to Spatial transcriptomics platforms, QC, and processing — 10x Visium until Marker identification (Day 3)
-- Spatial transcriptomics pseudo-bulk analysis, cell type annotation, Trajectory analysis and cell-cell communication (Day 4)
-
 
 ## Datasets
 
@@ -137,19 +128,6 @@ By the end of this workshop, participants will be able to:
 |---|---|---|---|---|---|
 |scRNA-seq| Lin SH et al., Med, 2025 Oct 10;6(10):100752 | 10x Genomics | GEO/SRA Datasets | Day 1–2 | *[PRJNA1078290](https://www.ncbi.nlm.nih.gov/search/all/?term=PRJNA1078290)* |
 |Spatial Data| Visium tissue dataset | 10x Genomics - Visium | 10x Genomics Datasets | Day 3 | *[link](https://www.10xgenomics.com/datasets/human-prostate-cancer-adenocarcinoma-with-invasive-carcinoma-ffpe-1-standard-1-3-0)* |
-
----
-
-## Abbreviations
-
-| Term | Definition | Term | Definition |
-|---|---|---|---|
-| scRNA-seq | Single-Cell RNA Sequencing | UMAP | Uniform Manifold Approximation and Projection |
-| PCA | Principal Component Analysis | t-SNE | t-Distributed Stochastic Neighbor Embedding |
-| UMI | Unique Molecular Identifier | QC | Quality Control |
-| DE | Differential Expression | SCT | SCTransform (normalization method) |
-| HVG | Highly Variable Genes | FFPE | Formalin-Fixed Paraffin-Embedded (tissue) |
-
 
 ---
 
