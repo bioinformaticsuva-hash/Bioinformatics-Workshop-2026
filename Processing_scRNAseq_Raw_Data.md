@@ -21,9 +21,13 @@ Raw reads will be processed with Cell Ranger, and the resulting count matrices w
 
 Copy `cellranger_data.tar.gz` from the UVA Box folder: [Bioinformatics Workshop](https://virginia.app.box.com/folder/395515355319).
 
-## Step 2: Log in to UVA Rivanna
+## Step 2: Log in to [10x Genomics Cloud Analysis](https://cloud.10xgenomics.com/cloud-analysis)
 
-**Option A — OpenOnDemand:** Log in to the [UVA OpenOnDemand Rivanna site](https://ood.hpc.virginia.edu/pun/sys/dashboard) and copy `cellranger_data.tar.gz` into a directory under `/home/<username>/`.
+**Create New Project
+
+
+
+— OpenOnDemand:** Log in to the [UVA OpenOnDemand Rivanna site](https://ood.hpc.virginia.edu/pun/sys/dashboard) and copy `cellranger_data.tar.gz` into a directory under `/home/<username>/`.
 
 **Option B — Terminal:** Log in directly via SSH:
 ```bash
