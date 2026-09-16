@@ -18,28 +18,7 @@ This dataset is a good fit for a workshop because it's probe-based (FFPE), which
 
 ---
 
-## Step 1: Log in to UVA Rivanna
-
-**Option A — OpenOnDemand:** Log in to the [UVA OpenOnDemand Rivanna site](https://ood.hpc.virginia.edu/pun/sys/dashboard) and open a terminal from there.
-
-**Option B — Terminal:** Log in directly via SSH:
-
-```
-ssh computing_id@login.hpc.virginia.edu
-```
-
-## Step 2: Create a Working Directory
-
-```
-
-mkdir Bioinformatics_Workshop # Skip this step if you have this directory.
-
-cd Bioinformatics_Workshop
-mkdir spaceranger_data
-cd spaceranger_data
-```
-
-## Step 3: Download the Raw Spatial Data
+## Step 1: Download the Raw Spatial Data
 
 This dataset is hosted directly by 10x Genomics and is CC BY 4.0 licensed — no login or Box relay needed:
 
@@ -49,6 +28,8 @@ wget https://cf.10xgenomics.com/samples/spatial-exp/1.3.0/Visium_FFPE_Human_Pros
 wget https://cf.10xgenomics.com/samples/spatial-exp/1.3.0/Visium_FFPE_Human_Prostate_Cancer/Visium_FFPE_Human_Prostate_Cancer_image.tif
 wget https://cf.10xgenomics.com/samples/spatial-exp/1.3.0/Visium_FFPE_Human_Prostate_Cancer/Visium_FFPE_Human_Prostate_Cancer_Pathologist_Annotations.png
 
+#This dataset is FFPE (probe-based), so Space Ranger also needs the matching human probe set:
+wget "https://cf.10xgenomics.com/samples/spatial-exp/1.3.0/Visium_FFPE_Human_Prostate_Cancer/Visium_FFPE_Human_Prostate_Cancer_probe_set.csv"
 ```
 
 Extract the FASTQs:
@@ -59,14 +40,11 @@ tar -xvf Visium_FFPE_Human_Prostate_Cancer_fastqs.tar
 
 > Note: confirm the tissue image's exact file extension on the [dataset's Input files tab](https://www.10xgenomics.com/datasets/human-prostate-cancer-adenocarcinoma-with-invasive-carcinoma-ffpe-1-standard-1-3-0) before running — it's expected to be `.jpg`, but Space Ranger accepts `.jpg`, `.tif`, or `.png` equally, so only the filename below would need to change.
 
-## Step 4: Download the Space Ranger Reference and Probe Set
+## Step 2: Download the Space Ranger Reference and Probe Set
 
 Skip this if you already have the Human reference data from cell ranger run.
 Move back up to the working directory first:
 
-```
-cd ..
-```
 
 Download the [reference transcriptome](https://www.10xgenomics.com/support/software/space-ranger/downloads#reference-downloads):
 
@@ -75,20 +53,8 @@ wget "https://cf.10xgenomics.com/supp/spatial-exp/refdata-gex-GRCh38-2020-A.tar.
 tar -zxvf refdata-gex-GRCh38-2020-A.tar.gz
 ```
 
-This dataset is FFPE (probe-based), so Space Ranger also needs the matching human probe set:
 
-```
-wget "https://cf.10xgenomics.com/samples/spatial-exp/1.3.0/Visium_FFPE_Human_Prostate_Cancer/Visium_FFPE_Human_Prostate_Cancer_probe_set.csv"
-```
-
-## Step 5: Process the Sample with Space Ranger
-
-```
-cd spaceranger_data
-sbatch spaceranger.slurm
-```
-
-`spaceranger.slurm` wraps the following command:
+## Step-3: If you have access to a server then you can run following command to run spaceranger with this dataset
 
 ```
 spaceranger count \
