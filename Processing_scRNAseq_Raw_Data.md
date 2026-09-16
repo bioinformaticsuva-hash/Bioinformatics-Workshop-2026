@@ -23,55 +23,9 @@ Copy `cellranger_data.tar.gz` from the UVA Box folder: [Bioinformatics Workshop]
 
 ## Step 2: Log in to [10x Genomics Cloud Analysis](https://cloud.10xgenomics.com/cloud-analysis)
 
-**Create New Project
+1. Create New Project - name it "scRANseq"
+2. Upload fastq files from `cellranger_data.tar.gz` 
+3. Click "Start Upload" 
+4. After Upload select Library option and other parameters and click Start Analysis
 
 
-
-— OpenOnDemand:** Log in to the [UVA OpenOnDemand Rivanna site](https://ood.hpc.virginia.edu/pun/sys/dashboard) and copy `cellranger_data.tar.gz` into a directory under `/home/<username>/`.
-
-**Option B — Terminal:** Log in directly via SSH:
-```bash
-ssh computing_id@login.hpc.virginia.edu
-```
-
-## Step 3: Create a Working Directory
-
-```bash
-mkdir Bioinformatics_Workshop
-cd Bioinformatics_Workshop
-```
-
-## Step 4: Extract the Cell Ranger Data
-
-Place `cellranger_data.tar.gz` in the `Bioinformatics_Workshop` folder, then extract it:
-
-```bash
-tar -xvf cellranger_data.tar.gz
-```
-
-## Step 5: Download the Cell Ranger Reference Dataset
-
-Download the [reference dataset](https://www.10xgenomics.com/support/software/cell-ranger/downloads#reference-downloads) into the `Bioinformatics_Workshop` folder:
-
-```bash
-wget "https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2024-A.tar.gz"
-tar -zxvf refdata-gex-GRCh38-2024-A.tar.gz
-```
-
-## Step 6: Process the Pre-Treatment FASTQ Files
-
-```bash
-cd cellranger_data/pretreatment
-sbatch cellranger.slurm
-```
-
-## Step 7: Process the Post-Treatment FASTQ Files
-
-```bash
-cd cellranger_data/posttreatment
-sbatch cellranger.slurm
-```
-
----
-
-Once both jobs complete, the Cell Ranger output (filtered feature-barcode matrices) for each sample will be ready for import into the Seurat pipeline for downstream analysis.
