@@ -1,4 +1,4 @@
-# Processing Raw scRNA-seq Data with Cell Ranger on UVA Rivanna
+# Processing Raw scRNA-seq Data with Cell Ranger on 10x Genomics Cloud
 
 This page walks through processing raw scRNA-seq FASTQ files with Cell Ranger on 10x Genomics Cloud, producing output ready for downstream analysis in the Seurat pipeline.
 
