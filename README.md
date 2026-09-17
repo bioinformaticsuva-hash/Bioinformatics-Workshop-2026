@@ -21,7 +21,7 @@ Materials, notebooks, code, and datasets for the UVA Bioinformatics Core's **Sin
   - [Day 1: Introduction to Single-Cell RNA-seq and training on data processing](#day-1-introduction-to-single-cell-rna-seq)
   - [Day 2: In Practice Single-Cell RNA-seq downstream Analysis, Annotation & Dynamics](#day-2-downstream-analysis-annotation--dynamics)
   - [Day 3: Introduction to Spatial Transcriptomics and training on data processing](#day-3-spatial-transcriptomics)
-  - [Day 4: In Practice Spatial Data Downstream Analysis, Visualization, Annotation and Dynamics](#day-4-spatial-transcriptomics)
+  - [Day 4: In Practice Spatial Data Downstream Analysis, Visualization, Annotation, Neigbourhood and Deconvolution](#day-4-spatial-transcriptomics)
 - [Key Topics](#key-topics)
 - [Datasets](#datasets)
 - [Getting Started — Where to Begin](#getting-started--where-to-begin)
@@ -161,10 +161,10 @@ Start processing the Visium FFPE Human Prostate Cancer data through Space Ranger
 - 📄 **[Analysis of Processed Space Ranger Output on Google Colab Cloud (Spatial Seurat Pipeline)](Day-3_Downstream_Spatial_Seurat_Pipeline.md)**
 
 
-Spatial data QC, space ranger processing, seurat pipiline with normalization, clustering, visualization, marker analysis, cell type annotation, cell-cell communication.
+Spatial data QC, space ranger processing, seurat pipiline with normalization, clustering, visualization, marker analysis, cell type annotation, Neigbourhood and Deconvolution.
 
 ### 🧫 Day 4 — Spatial Transcriptomics: Downstream Analysis
-Start processing on day-4 with cell type annotation, trajectory analyiss and cell-cell communication.
+Start processing on day-4 with cell type annotation, Neigbourhood and Deconvolution.
 
 - 📄 **[Continuing on spatial transciptomcis Google Colab Cloud (Spatial Seurat Pipeline)](Day-3_Downstream_Spatial_Seurat_Pipeline.md)**
 
