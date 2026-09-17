@@ -22,12 +22,14 @@ Download the workshop notebook — **[`02_scRNAseq_analysis.ipynb`](02_scRNAseq_
 
 From the [Bioinformatics Workshop Box folder](https://virginia.app.box.com/folder/395515355319), download the following two files:
 
-- `R_library.tar.gz` — pre-built R package library (Seurat and dependencies), so you don't need to install packages from scratch in Colab
+- `R_Libraries > library.tar.gz` — pre-built R package library (Seurat and dependencies), so you don't need to install packages from scratch in Colab
+- `R_Libraries > script.R` — sript to set-up libraries in Colab
+- `NicheNet_models` - Download all files from this folder
 - `obj_combined.integrated_40res.rds` — the Seurat output generated in Day 1
 
 ## Step 4: Upload the Files to Colab
 
-In the Colab interface, open the **Files** panel (folder icon on the left sidebar) and upload both `R_library.tar.gz` and `obj_combined.integrated_40res.rds` directly into the root session storage.
+In the Colab interface, open the **Files** panel (folder icon on the left sidebar) and upload both `library.tar.gz`, `script.R`, `obj_combined.integrated_40res.rds` and other files directly into the root session storage.
 
 <p align="center">
   <img src="Google_colab_screenshot.jpg" width="330" alt="Screenshot of the Google Colab Files panel showing R_library.tar.gz and cellranger_output.tar uploaded">
