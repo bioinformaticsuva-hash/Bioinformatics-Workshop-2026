@@ -29,3 +29,28 @@ Copy `cellranger_data.tar.gz` from the UVA Box folder: [Bioinformatics Workshop]
 4. After Upload select Library option and other parameters and click Start Analysis
 
 
+## Running on a linux server: If you have access to a server then you can run following command to run spaceranger with this dataset
+
+```
+# Pre-treatment
+cellranger count \
+  --id=pretreatment \
+  --sample=pretreatment \
+  –-fastqs=GSM8086070 \
+  --transcriptome=refdata-gex-GRCh38-2024-A \
+  --create-bam=false
+
+# Post-treatment
+cellranger count \
+  --id=pretreatment 
+  --sample=pretreatment \
+  --fastqsGSM8086070 \
+  --transcriptome=refdata-gex-GRCh38-2024-A \
+  --create-bam=false
+
+
+```
+
+---
+
+Once the job completes, check `outs/web_summary.html` first to confirm spots were called under tissue and QC metrics look reasonable. The Space Ranger output (filtered feature-barcode matrix, spatial coordinates, and aligned tissue image) will then be ready for import into the Seurat pipeline for downstream analysis.
