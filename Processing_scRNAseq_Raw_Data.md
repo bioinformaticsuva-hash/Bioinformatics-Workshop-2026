@@ -23,13 +23,13 @@ Copy `cellranger_data.tar.gz` from the UVA Box folder: [Bioinformatics Workshop]
 
 ## Step 2: Log in to [10x Genomics Cloud Analysis](https://cloud.10xgenomics.com/cloud-analysis)
 
-1. Create New Project - name it "scRANseq"
+1. Create New Project - name it "scRNAseq"
 2. Upload fastq files from `cellranger_data.tar.gz` 
 3. Click "Start Upload" 
 4. After Upload select Library option and other parameters and click Start Analysis
 
 
-## Running on a linux server: If you have access to a server then you can run following command to run spaceranger with this dataset
+## Optionally, if running on a linux server: Use the following command to run spaceranger with this dataset.
 
 ```
 # Pre-treatment
@@ -47,7 +47,6 @@ cellranger count \
   --fastqsGSM8086070 \
   --transcriptome=refdata-gex-GRCh38-2024-A \
   --create-bam=false
-
 
 ```
 
