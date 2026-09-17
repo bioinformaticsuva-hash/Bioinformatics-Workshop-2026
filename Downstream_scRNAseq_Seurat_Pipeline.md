@@ -18,16 +18,17 @@ Go to [colab.research.google.com](https://colab.research.google.com) and sign in
 
 Download the workshop notebook — **[`01_scRNAseq_analysis.ipynb`](01_scRNAseq_analysis.ipynb)** — and open it in Google Colab (**File → Upload notebook**, or drag and drop the file into the Colab interface).
 
-## Step 3: Copy the R Library and Cell Ranger Output from UVA Box
+## Step 3: Copy the R Library and script.R and Cell Ranger Output from UVA Box
 
 From the [Bioinformatics Workshop Box folder](https://virginia.app.box.com/folder/395515355319), download the following two files:
 
-- `R_library.tar.gz` — pre-built R package library (Seurat and dependencies), so you don't need to install packages from scratch in Colab
-- `cellranger_output.tar` — the Cell Ranger output generated in Day 1
+- `R_Libraries > library.tar.gz` — pre-built R package library (Seurat and dependencies), so you don't need to install packages from scratch in Colab
+- `R_Libraries > script.R` — sript to set-up libraries in Colab
+- `scRNA-seq > cellranger_output.tar` — the Cell Ranger output generated in Day 1
 
 ## Step 4: Upload the Files to Colab
 
-In the Colab interface, open the **Files** panel (folder icon on the left sidebar) and upload both `R_library.tar.gz` and `cellranger_output.tar` directly into the root session storage.
+In the Colab interface, open the **Files** panel (folder icon on the left sidebar) and upload both `library.tar.gz`, `script.R` and `cellranger_output.tar` directly into the root session storage.
 
 <p align="center">
   <img src="Google_colab_screenshot.jpg" width="330" alt="Screenshot of the Google Colab Files panel showing R_library.tar.gz and cellranger_output.tar uploaded">
