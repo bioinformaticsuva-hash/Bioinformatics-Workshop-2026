@@ -22,12 +22,13 @@ Download the workshop notebook — **[`01_Spatial_Transcriptomics_Analysis.ipynb
 
 From the [Bioinformatics Workshop Box folder](https://virginia.app.box.com/folder/395515355319), download the following two files:
 
-- `R_library.tar.gz` — pre-built R package library (Seurat and dependencies), so you don't need to install packages from scratch in Colab
-- `spaceranger_output.tar` — the Cell Ranger output generated in Day 1
+- `R_Libraries > Library.tar.gz` — pre-built R package library (Seurat and dependencies), so you don't need to install packages from scratch in Colab
+- `R_Libraries > script.R` — Script to set-up libraries in Colab
+- `Spatial_Data > spaceranger_output.tar` — the Cell Ranger output generated in Day 1
 
 ## Step 4: Upload the Files to Colab
 
-In the Colab interface, open the **Files** panel (folder icon on the left sidebar) and upload both `R_library.tar.gz` and `spaceranger_output.tar` directly into the root session storage.
+In the Colab interface, open the **Files** panel (folder icon on the left sidebar) and upload both `Library.tar.gz`, `scirpt.R` and `spaceranger_output.tar` directly into the root session storage.
 
 <p align="center">
   <img src="Google_colab_screenshot.jpg" width="330" alt="Screenshot of the Google Colab Files panel showing R_library.tar.gz and spaceranger_output.tar uploaded">
