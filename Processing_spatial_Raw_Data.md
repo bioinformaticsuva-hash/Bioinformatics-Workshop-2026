@@ -54,7 +54,7 @@ tar -zxvf refdata-gex-GRCh38-2020-A.tar.gz
 ```
 
 
-## Step-3: If you have access to a server then you can run following command to run spaceranger with this dataset
+## Step-3: Following the process of running spaceranger on the intructors system: Alternatively, if you have access to a server then you can run following command to run spaceranger with this dataset
 
 ```
 spaceranger count \
