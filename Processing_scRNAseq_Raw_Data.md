@@ -28,7 +28,7 @@ Copy `cellranger_data.tar.gz` from the UVA Box folder: [Bioinformatics Workshop]
 3. Click "Start Upload" 
 4. After Upload select Library option and other parameters and click Start Analysis
 
-[![10x Cloud Submission Video Demo](10x_Cloud_submission.mp4)](10x_Cloud_submission.mp4)
+[![10x Cloud Submission Video Demo](video_thumb.png)](10x_Cloud_submission.mp4)
 
 ## Optionally, if running on a linux server: Use the following command to run spaceranger with this dataset.
 
