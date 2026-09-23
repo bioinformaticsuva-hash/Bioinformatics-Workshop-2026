@@ -30,7 +30,6 @@ Copy `cellranger_data.tar.gz` from the UVA Box folder: [Bioinformatics Workshop]
 
 [![Watch the walkthrough](video_thumb.png)](https://raw.githubusercontent.com/bioinformaticsuva-hash/Bioinformatics-Workshop-2026/main/10x_Cloud_submission.mp4)
 
-
 ## Optionally, if running on a linux server: Use the following command to run spaceranger with this dataset.
 
 ```
