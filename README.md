@@ -145,14 +145,14 @@ Begin the workshop by processing the pre- and post-treatment FASTQ files (GSM808
 
 
 
-### 🔬 Day 2 — Downstream Analysis, Annotation & Dynamics
+### Day 2 — Downstream Analysis, Annotation & Dynamics
 
 Cell type annotation, differential expression between pre- and post-treatment samples, trajectory inference, and cell-cell communication analysis, built on the Day 1 Cell Ranger output.
 
 - 📄 **[Continuing on scRNA-seq Seurat Analyis Day-2 on Google Colab Cloud (Seurat Pipeline)](Day-2_Downstream_scRNAseq_Seurat_Pipeline.md)**
 
 
-### 🧫 Day 3 — Spatial Transcriptomics: Processing the Raw Dataset
+### Day 3 — Spatial Transcriptomics: Processing the Raw Dataset
 
 - 📄 **[Processing Raw spatial Data with Space Ranger on 10x Genomics Cloud](Processing_spatial_Raw_Data.md)**
 
@@ -163,7 +163,7 @@ Start processing the Visium FFPE Human Prostate Cancer data through Space Ranger
 
 Spatial data QC, space ranger processing, seurat pipiline with normalization, clustering, visualization, marker analysis, cell type annotation, Neigbourhood and Deconvolution.
 
-### 🧫 Day 4 — Spatial Transcriptomics: Downstream Analysis
+### Day 4 — Spatial Transcriptomics: Downstream Analysis
 Start processing on day-4 with cell type annotation, Neigbourhood and Deconvolution.
 
 - 📄 **[Continuing on spatial transciptomcis Google Colab Cloud (Spatial Seurat Pipeline)](Day-3_Downstream_Spatial_Seurat_Pipeline.md)**
