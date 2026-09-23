@@ -105,7 +105,7 @@ By the end of this workshop, participants will be able to:
 | 11:00 – 11:15 AM | Break |
 | 11:15 AM – 12:00 PM | Practice Part 1 - Environment set up, Data Download and Raw data processing using space ranger and exploring output|
 | 12:00 – 12:45 PM | Lunch |
-| 12:45 – 2:00 PM | Practice Part 2 — Google Colab Environment setup, data loading, Seurat Pre-processing, Normalization, Marker Analysis and pseudobulk Analyis|
+| 12:45 – 2:00 PM | Practice Part 2 — Google Colab Environment setup, data loading, Seurat Pre-processing, Normalization and clustering|
 
 
 ### Day 4: Spatial Transcriptomics
@@ -115,7 +115,7 @@ By the end of this workshop, participants will be able to:
 |---|---|
 | 10:00 – 11:00 AM | Lecture - Spatial Transcriptomics Downstream Advance Analysis and Transition to Practice|
 | 11:00 – 11:15 AM | Break |
-| 11:15 AM – 12:00 PM | Practice Part 1 — Spatial data Celltype annotation|
+| 11:15 AM – 12:00 PM | Practice Part 1 — Marker Analysis + Celltype annotation|
 | 12:00 – 12:45 PM | Lunch |
 | 12:45 – 2:00 PM | Practice Part 2 —  Neighborhood and deconvolution analysis |
 
@@ -161,10 +161,10 @@ Start processing the Visium FFPE Human Prostate Cancer data through Space Ranger
 - 📄 **[Analysis of Processed Space Ranger Output on Google Colab Cloud (Spatial Seurat Pipeline)](Day-3_Downstream_Spatial_Seurat_Pipeline.md)**
 
 
-Spatial data QC, space ranger processing, seurat pipiline with normalization, clustering, visualization, marker analysis, cell type annotation, Neigbourhood and Deconvolution.
+Spatial data QC, space ranger processing, seurat pipiline with normalization, clustering, visualization.
 
 ### Day 4 — Spatial Transcriptomics: Downstream Analysis
-Start processing on day-4 with cell type annotation, Neigbourhood and Deconvolution.
+Start processing on day-4 with marker analyisis, cell type annotation, Neigbourhood and Deconvolution.
 
 - 📄 **[Continuing on spatial transciptomcis Google Colab Cloud (Spatial Seurat Pipeline)](Day-3_Downstream_Spatial_Seurat_Pipeline.md)**
 
