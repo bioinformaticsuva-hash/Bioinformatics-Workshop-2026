@@ -18,7 +18,7 @@ Materials, notebooks, code, and datasets for the UVA Bioinformatics Core's **Sin
 - [Repository Structure](#repository-structure)
 - [Setup Instructions](#setup-instructions)
 - [Schedule](#schedule)
-  - [Day 1: Introduction to Single-Cell RNA-seq and training on data processing](#day-1-introduction-to-single-cell-rna-seq)
+  - [Day 1: Introduction to Single-Cell RNA-seq and training on data processing](#Day-1-—-Start-Here:-Processing-the-Raw-Dataset)
   - [Day 2: In Practice Single-Cell RNA-seq downstream Analysis, Annotation & Dynamics](#day-2-downstream-analysis-annotation--dynamics)
   - [Day 3: Introduction to Spatial Transcriptomics and training on data processing](#day-3-spatial-transcriptomics)
   - [Day 4: In Practice Spatial Data Downstream Analysis, Visualization, Annotation, Neigbourhood and Deconvolution](#day-4-spatial-transcriptomics)
@@ -135,7 +135,7 @@ By the end of this workshop, participants will be able to:
 
 This workshop builds sequentially — Day 1's Cell Ranger output feeds directly into Day 2's Seurat analysis.
 
-### 🧬 Day 1 — Start Here: Processing the Raw Dataset
+### Day 1 — Start Here: Processing the Raw Dataset
 
 - 📄 **[Processing Raw scRNA-seq Data with Cell Ranger on 10x Genomics Cloud](Processing_scRNAseq_Raw_Data.md)**
 
