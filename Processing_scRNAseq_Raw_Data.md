@@ -1,6 +1,5 @@
 
 
-https://github.com/user-attachments/assets/cdb9d2bf-4a86-456f-b91e-9cb59378fbb2
 
 # Processing Raw scRNA-seq Data with Cell Ranger on 10x Genomics Cloud
 
@@ -32,7 +31,8 @@ Copy `cellranger_data.tar.gz` from the UVA Box folder: [Bioinformatics Workshop]
 3. Click "Start Upload" 
 4. After Upload select Library option and other parameters and click Start Analysis
 
-[![Watch the walkthrough](video_thumb.png)]([10x_Cloud_submission.mp4](https://github.com/user-attachments/assets/cdb9d2bf-4a86-456f-b91e-9cb59378fbb2))
+[![Watch the walkthrough](
+https://github.com/user-attachments/assets/cdb9d2bf-4a86-456f-b91e-9cb59378fbb2)
 
 ## Optionally, if running on a linux server: Use the following command to run spaceranger with this dataset.
 
