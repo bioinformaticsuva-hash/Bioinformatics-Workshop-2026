@@ -20,9 +20,9 @@ This dataset is a good fit for a workshop because it's probe-based (FFPE), which
 
 # Option-1: Run on Bioinformatics Core Server app06 
 
-## Step 1: Login to the bioinformatics server
+## Step 1: Login to the bioinformatics server (use your computing id as login id)
 <code>
-ssh <computing_id>@app06.bioinformatics.virginia.edu
+ssh computing_id@app06.bioinformatics.virginia.edu
 pwd: bioinfo123
 
 # change directory to Visum folder
