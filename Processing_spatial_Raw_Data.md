@@ -18,6 +18,40 @@ This dataset is a good fit for a workshop because it's probe-based (FFPE), which
 
 ---
 
+### Option-1: Run on Bioinformatics Core Server app06 
+
+## Step 1: Login to the bioinformatics server
+<code>
+ssh <>@app06.bioinformatics.virginia.edu
+pwd: bioinfo123
+
+# change directory to Visum folder
+cd ./Visium/Visium_FFPE_Human_Prostate_Cancer
+
+# Run command as below
+sh spaceranger_command.sh
+
+</code>
+
+Following is the command in spaceranger_command.sh
+<code>
+spaceranger count --id=prostate_cancer \
+ --transcriptome=/opt/refdata-gex-GRCh38-2024-A \
+ --fastqs=~/Visium/Visium_FFPE_Human_Prostate_Cancer/Visium_FFPE_Human_Prostate_Cancer_fastqs \
+ --probe-set=~/Visium/Visium_FFPE_Human_Prostate_Cancer/Visium_FFPE_Human_Prostate_Cancer_probe_set.csv \
+ --slide=V11J26-003 \
+ --area=B1 \
+ --sample=FFPE_V1_Human_Prostate_Cancer \
+ --image=~/Visium/Visium_FFPE_Human_Prostate_Cancer/Visium_FFPE_Human_Prostate_Cancer_image.tif \
+ --create-bam=false \
+ --localcores=10 \
+ --localmem=128
+</code>
+
+
+
+### Option-2: Run on your own server
+
 ## Step 1: Download the Raw Spatial Data
 
 This dataset is hosted directly by 10x Genomics and is CC BY 4.0 licensed — no login or Box relay needed:
@@ -57,15 +91,17 @@ tar -zxvf refdata-gex-GRCh38-2020-A.tar.gz
 ## Step-3: Following the process of running spaceranger on the intructors system: Alternatively, if you have access to a server then you can run following command to run spaceranger with this dataset
 
 ```
-spaceranger count \
-  --id=Visium_FFPE_Human_Prostate_Cancer \
-  --transcriptome=../refdata-gex-GRCh38-2020-A \
-  --probe-set=../Visium_Human_Transcriptome_Probe_Set_v1.0_GRCh38-2020-A.csv \
-  --fastqs=Visium_FFPE_Human_Prostate_Cancer_fastqs \
-  --image=Visium_FFPE_Human_Prostate_Cancer_image.jpg \
-  --slide=V11J26-003 \
-  --area=B1 \
-  --create-bam=false
+spaceranger count --id=prostate_cancer \
+ --transcriptome=/opt/refdata-gex-GRCh38-2024-A \
+ --fastqs=~/Visium/Visium_FFPE_Human_Prostate_Cancer/Visium_FFPE_Human_Prostate_Cancer_fastqs \
+ --probe-set=~/Visium/Visium_FFPE_Human_Prostate_Cancer/Visium_FFPE_Human_Prostate_Cancer_probe_set.csv \
+ --slide=V11J26-003 \
+ --area=B1 \
+ --sample=FFPE_V1_Human_Prostate_Cancer \
+ --image=~/Visium/Visium_FFPE_Human_Prostate_Cancer/Visium_FFPE_Human_Prostate_Cancer_image.tif \
+ --create-bam=false \
+ --localcores=10 \
+ --localmem=128
 ```
 
 ---
