@@ -18,7 +18,7 @@ This dataset is a good fit for a workshop because it's probe-based (FFPE), which
 
 ---
 
-### Option-1: Run on Bioinformatics Core Server app06 
+# Option-1: Run on Bioinformatics Core Server app06 
 
 ## Step 1: Login to the bioinformatics server
 <code>
@@ -50,7 +50,7 @@ spaceranger count --id=prostate_cancer \
 
 
 
-### Option-2: Run on your own server
+# Option-2: Run on your own server
 
 ## Step 1: Download the Raw Spatial Data
 
