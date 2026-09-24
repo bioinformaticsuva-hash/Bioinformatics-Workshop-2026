@@ -22,7 +22,7 @@ This dataset is a good fit for a workshop because it's probe-based (FFPE), which
 
 ## Step 1: Login to the bioinformatics server
 <code>
-ssh <>@app06.bioinformatics.virginia.edu
+ssh <computing_id>@app06.bioinformatics.virginia.edu
 pwd: bioinfo123
 
 # change directory to Visum folder
