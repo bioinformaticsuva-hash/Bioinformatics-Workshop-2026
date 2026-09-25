@@ -40,7 +40,7 @@ sh spaceranger_command.sh
 </code>
 
 Following is the command in spaceranger_command.sh
-<code>
+```
 spaceranger count --id=prostate_cancer \
  --transcriptome=/opt/refdata-gex-GRCh38-2024-A \
  --fastqs=~/Visium/Visium_FFPE_Human_Prostate_Cancer/Visium_FFPE_Human_Prostate_Cancer_fastqs \
@@ -52,7 +52,7 @@ spaceranger count --id=prostate_cancer \
  --create-bam=false \
  --localcores=10 \
  --localmem=128
-</code>
+```
 
 
 
