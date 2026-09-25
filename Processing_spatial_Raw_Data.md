@@ -2,7 +2,13 @@
 
 This page walks through processing raw Visium spatial FASTQ files and a tissue image with Space Ranger on UVA's Rivanna HPC system, producing output ready for downstream analysis in the Seurat pipeline.
 
-## About the Dataset
+There are two datasets 
+
+1) Visium - Prostate Cancer Data (https://www.10xgenomics.com/datasets/human-prostate-cancer-adenocarcinoma-with-invasive-carcinoma-ffpe-1-standard-1-3-0)
+2) Visium HD - Kidney Data (https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-human-kidney-ffpe-v4)
+
+
+# About the Dataset - Visium Prostate Cancer Data
 
 This workshop uses one FFPE tissue section — **Human Prostate Cancer, Adenocarcinoma with Invasive Carcinoma** — from 10x Genomics' public Visium datasets.
 
@@ -18,7 +24,7 @@ This dataset is a good fit for a workshop because it's probe-based (FFPE), which
 
 ---
 
-# Option-1: Run on Bioinformatics Core Server app06 
+# Anlysis Option-1: Run on Bioinformatics Core Server app06 (Data is already placed on this server)
 
 ## Step 1: Login to the bioinformatics server (use your computing id as login id)
 <code>
@@ -50,7 +56,7 @@ spaceranger count --id=prostate_cancer \
 
 
 
-# Option-2: Run on your own server
+# Option-2: Manually Download Data and Run on your own server
 
 ## Step 1: Download the Raw Spatial Data
 
@@ -105,5 +111,9 @@ spaceranger count --id=prostate_cancer \
 ```
 
 ---
+
+
+
+
 
 Once the job completes, check `outs/web_summary.html` first to confirm spots were called under tissue and QC metrics look reasonable. The Space Ranger output (filtered feature-barcode matrix, spatial coordinates, and aligned tissue image) will then be ready for import into the Seurat pipeline (`Load10X_Spatial()`) for downstream analysis.
