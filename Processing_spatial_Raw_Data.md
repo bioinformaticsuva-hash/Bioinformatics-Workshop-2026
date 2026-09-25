@@ -134,7 +134,21 @@ Raw reads will be processed with spaceranger, and the resulting spot-by-gene mat
 ### Step-1: Download Data 
 Download the dataset from the 10x dataset site https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-human-kidney-ffpe-v4
 
-### Step-2: Login 
+### Step-2: Log in to [10x Genomics Cloud Analysis](https://cloud.10xgenomics.com/cloud-analysis)
+
+1. Create New Project - name it "Visium_HD_Kidney"
+2. Upload fastq files and image files
+3. Click "Start Upload" 
+4. After Upload select Library option and other parameters and click Start Analysis
+
+#### Watch the 10x walkthrough
+https://github.com/user-attachments/assets/cdb9d2bf-4a86-456f-b91e-9cb59378fbb2
+
+#### Following files should be shown on the 10x project
+
+<img width="3792" height="1198" alt="Visium_HD_Kidney_upload" src="https://github.com/user-attachments/assets/0c17f53d-27a4-469f-84a7-080be2f09289" />
+
+
 
 
 
