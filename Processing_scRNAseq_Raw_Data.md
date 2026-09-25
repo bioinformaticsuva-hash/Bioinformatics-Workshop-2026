@@ -34,7 +34,7 @@ Copy `cellranger_data.tar.gz` from the UVA Box folder: [Bioinformatics Workshop]
 ## Watch the 10x walkthrough
 https://github.com/user-attachments/assets/cdb9d2bf-4a86-456f-b91e-9cb59378fbb2
 
-## Optionally, if running on a linux server: Use the following command to run spaceranger with this dataset.
+## Optionally, if running on a linux server: Use the following command to run cellranger with this dataset.
 
 ```
 # Pre-treatment
