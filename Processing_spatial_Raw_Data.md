@@ -24,9 +24,9 @@ This dataset is a good fit for a workshop because it's probe-based (FFPE), which
 
 ---
 
-# Anlysis Option-1: Run on Bioinformatics Core Server app06 (Data is already placed on this server)
+## Anlysis Option-1: Run on Bioinformatics Core Server app06 (Data is already placed on this server)
 
-## Step 1: Login to the bioinformatics server (use your computing id as login id)
+### Step 1: Login to the bioinformatics server (use your computing id as login id)
 <code>
 ssh computing_id@app06.bioinformatics.virginia.edu
 pwd: bioinfo123
@@ -56,9 +56,9 @@ spaceranger count --id=prostate_cancer \
 
 
 
-# Option-2: Manually Download Data and Run on your own server
+## Option-2: Manually Download Data and Run on your own server
 
-## Step 1: Download the Raw Spatial Data
+### Step 1: Download the Raw Spatial Data
 
 This dataset is hosted directly by 10x Genomics and is CC BY 4.0 licensed — no login or Box relay needed:
 
