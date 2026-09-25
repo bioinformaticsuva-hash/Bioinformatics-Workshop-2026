@@ -4,15 +4,15 @@ This page walks through processing raw Visium spatial FASTQ files and a tissue i
 
 There are two datasets 
 
-1) Visium - Prostate Cancer Data (https://www.10xgenomics.com/datasets/human-prostate-cancer-adenocarcinoma-with-invasive-carcinoma-ffpe-1-standard-1-3-0)
-2) Visium HD - Kidney Data (https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-human-kidney-ffpe-v4)
+1) Visium - Human Prostate Cancer Data (https://www.10xgenomics.com/datasets/human-prostate-cancer-adenocarcinoma-with-invasive-carcinoma-ffpe-1-standard-1-3-0)
+2) Visium HD - Human Kidney Data (https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-human-kidney-ffpe-v4)
 
 
-# About the Dataset - Visium Prostate Cancer Data
+# Visium Prostate Cancer Data
 
 This workshop uses one FFPE tissue section — **Human Prostate Cancer, Adenocarcinoma with Invasive Carcinoma** — from 10x Genomics' public Visium datasets.
 
-Raw reads will be processed with Space Ranger, and the resulting spot-by-gene matrix (with spatial coordinates and the aligned tissue image) will be used for downstream analysis with the Seurat pipeline.
+Raw reads will be processed with spaceranger, and the resulting spot-by-gene matrix (with spatial coordinates and the aligned tissue image) will be used for downstream analysis with the Seurat pipeline.
 
 **Reference:** 10x Genomics. *Human Prostate Cancer, Adenocarcinoma with Invasive Carcinoma (FFPE)*. Space Ranger 1.3.0. Tissue obtained from Indivumed Human Tissue Specimens. [10xgenomics.com/datasets](https://www.10xgenomics.com/datasets/human-prostate-cancer-adenocarcinoma-with-invasive-carcinoma-ffpe-1-standard-1-3-0). Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
@@ -27,7 +27,7 @@ This dataset is a good fit for a workshop because it's probe-based (FFPE), which
 ## Anlysis Option-1: Run on Bioinformatics Core Server app06 (Data is already placed on this server)
 
 ### Step 1: Login to the bioinformatics server (use your computing id as login id)
-<code>
+```
 ssh computing_id@app06.bioinformatics.virginia.edu
 pwd: bioinfo123
 
@@ -37,7 +37,7 @@ cd ./Visium/Visium_FFPE_Human_Prostate_Cancer
 # Run command as below
 sh spaceranger_command.sh
 
-</code>
+```
 
 Following is the command in spaceranger_command.sh
 ```
@@ -112,8 +112,29 @@ spaceranger count --id=prostate_cancer \
 
 ---
 
-
-
-
-
 Once the job completes, check `outs/web_summary.html` first to confirm spots were called under tissue and QC metrics look reasonable. The Space Ranger output (filtered feature-barcode matrix, spatial coordinates, and aligned tissue image) will then be ready for import into the Seurat pipeline (`Load10X_Spatial()`) for downstream analysis.
+
+
+# Visium HD Human Kidney Data
+
+This is **Visium HD Spatial Gene Expression Library, Human Kidney (FFPE)** — from 10x Genomics' public Visium HD datasets.
+
+Raw reads will be processed with spaceranger, and the resulting spot-by-gene matrix (with spatial coordinates and the aligned tissue image) will be used for downstream analysis with the Seurat pipeline.
+
+**Reference:** 10x Genomics. *Visium HD Spatial Gene Expression Library, Human Kidney (FFPE)*. [10xgenomics.com/datasets](https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-human-kidney-ffpe-v4). Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+| Sample | Dataset Name                        | Source                | Sample Info                                                                 |
+| ------ | ------------------------------------ | ---------------------- | ---------------------------------------------------------------------------- |
+| 1      | Visium_HD_Human_Kidney_FFPE    | 10x Genomics Datasets  | Visium HD Spatial Gene Expression Library, Human Kidney (FFPE), Slide V11J26-003, Area B1 |
+
+---
+
+## Anlysis Option-1: Run on 10x Genomics Cloud
+
+### Step-1: Download Data 
+Download the dataset from the 10x dataset site https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-human-kidney-ffpe-v4
+
+### Step-2: Login 
+
+
+
