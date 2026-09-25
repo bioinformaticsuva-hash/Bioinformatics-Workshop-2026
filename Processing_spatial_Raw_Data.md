@@ -155,5 +155,18 @@ The probeset csv file has to be uploaded in the analysis step. Select all files 
 Select the appropriate options and click **Run Analysis** button to start the **spaceranger** processing.
 
 
+## Anlysis Option-2: Run on a local server
 
+If you have access to a local server then you can use following command to submit the spaceranger analysis
+
+```
+spaceranger count --id=Kidney \
+  --transcriptome=refdata-gex-GRCh38-2024-A \
+  --fastqs=Visium_HD_Human_Kidney_FFPE_fastqs
+  --sample=Visium_HD_Human_Kidney_FFPE \
+  --image=Visium_HD_Human_Kidney_FFPE_tissue_image.btf
+  --probe-set=Visium_HD_Human_Kidney_FFPE_probe_set.csv
+  --cytaimage=Visium_HD_Human_Kidney_FFPE_image.tif \
+  --slidefile=H1-NZKVVTH.vlf --create-bam=false
+```
 
