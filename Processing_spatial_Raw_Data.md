@@ -149,6 +149,7 @@ https://github.com/user-attachments/assets/cdb9d2bf-4a86-456f-b91e-9cb59378fbb2
 <img width="3792" height="1198" alt="Visium_HD_Kidney_upload" src="https://github.com/user-attachments/assets/0c17f53d-27a4-469f-84a7-080be2f09289" />
 
 The probeset csv file has to be uploaded in the analysis step. Select all files and click **Create New Analysis** buttom on the right.
+
 <img width="1890" height="1958" alt="Visium_HD_Kidney_Analysis_Settings" src="https://github.com/user-attachments/assets/740db59a-854d-4068-92cc-2df5a26a6aa3" />
 
 Select the appropriate options and click **Run Analysis** button to start the **spaceranger** processing.
