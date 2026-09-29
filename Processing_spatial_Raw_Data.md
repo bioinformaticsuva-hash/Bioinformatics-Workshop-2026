@@ -28,8 +28,8 @@ This dataset is a good fit for a workshop because it's probe-based (FFPE), which
 
 ### Step 1: Login to the bioinformatics server (use your computing id as login id)
 ```
-ssh computing_id@app06.bioinformatics.virginia.edu
-pwd: computing_id@UVA
+ssh username@app06.bioinformatics.virginia.edu
+pwd: username@UVA
 
 # change directory to Visum folder
 cd ./Visium/Visium/Visium_FFPE_Human_Prostate_Cancer
