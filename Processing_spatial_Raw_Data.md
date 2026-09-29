@@ -29,10 +29,10 @@ This dataset is a good fit for a workshop because it's probe-based (FFPE), which
 ### Step 1: Login to the bioinformatics server (use your computing id as login id)
 ```
 ssh computing_id@app06.bioinformatics.virginia.edu
-pwd: bioinfo123
+pwd: computing_id@UVA
 
 # change directory to Visum folder
-cd ./Visium/Visium_FFPE_Human_Prostate_Cancer
+cd ./Visium/Visium/Visium_FFPE_Human_Prostate_Cancer
 
 # Run command as below
 sh spaceranger_command.sh
@@ -43,14 +43,14 @@ Following is the command in spaceranger_command.sh
 ```
 spaceranger count --id=prostate_cancer \
  --transcriptome=/opt/refdata-gex-GRCh38-2024-A \
- --fastqs=~/Visium/Visium_FFPE_Human_Prostate_Cancer/Visium_FFPE_Human_Prostate_Cancer_fastqs \
- --probe-set=~/Visium/Visium_FFPE_Human_Prostate_Cancer/Visium_FFPE_Human_Prostate_Cancer_probe_set.csv \
+ --fastqs=./Visium_FFPE_Human_Prostate_Cancer_fastqs \
+ --probe-set=./Visium_FFPE_Human_Prostate_Cancer_probe_set.csv \
  --slide=V11J26-003 \
  --area=B1 \
  --sample=FFPE_V1_Human_Prostate_Cancer \
- --image=~/Visium/Visium_FFPE_Human_Prostate_Cancer/Visium_FFPE_Human_Prostate_Cancer_image.tif \
+ --image=./Visium_FFPE_Human_Prostate_Cancer_image.tif \
  --create-bam=false \
- --localcores=10 \
+ --localcores=2 \
  --localmem=128
 ```
 
