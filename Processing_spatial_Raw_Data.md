@@ -32,7 +32,7 @@ ssh username@app06.bioinformatics.virginia.edu
 pwd: username@UVA
 
 # change directory to Visum folder
-cd ./Visium/Visium/Visium_FFPE_Human_Prostate_Cancer
+cd ./Visium/Visium_FFPE_Human_Prostate_Cancer
 
 # Run command as below
 sh spaceranger_command.sh
