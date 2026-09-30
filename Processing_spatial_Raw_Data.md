@@ -30,6 +30,7 @@ This dataset is a good fit for a workshop because it's probe-based (FFPE), which
 ```
 ssh username@app06.bioinformatics.virginia.edu
 pwd: username@UVA
+# Note: Username is your computing ID.
 
 # change directory to Visum folder
 cd ./Visium/Visium_FFPE_Human_Prostate_Cancer
